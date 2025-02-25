@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Bookstore</div>
+        <div class="cart">
+            <span id="cart-count">0</span>
+            <img src="cart-icon.png" alt="Cart">
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="banner-icons">
+            <a href="#home"><img src="home-icon.png" alt="Home">Home</a>
+            <a href="#classes"><img src="classes-icon.png" alt="Classes">Classes</a>
+            <a href="#subjects"><img src="subjects-icon.png" alt="Subjects">Subjects</a>
+            <a href="#books"><img src="books-icon.png" alt="Books">Books</a>
+            <a href="#about"><img src="about-icon.png" alt="About">About</a>
+        </div>
+    </div>
+
+    <!-- Body -->
+    <div class="container">
+        <!-- Main Content -->
+        <main>
+            <section id="home">
+                <h2>Welcome to Our Bookstore</h2>
+                <p>Explore our wide range of books for all classes and subjects.</p>
+            </section>
+
+            <section id="classes">
+                <h2>Classes</h2>
+                <ul>
+                    <li><a href="#kg1">KG1</a></li>
+                    <li><a href="#kg2">KG2</a></li>
+                    <!-- Add more classes up to Grade 12 -->
+                </ul>
+            </section>
+
+            <section id="subjects">
+                <h2>Subjects</h2>
+                <ul>
+                    <li>Mathematics</li>
+                    <li>Science</li>
+                    <li>Arabic</li>
+                    <li>English</li>
+                    <!-- Add more subjects -->
+                </ul>
+            </section>
+
+            <section id="books">
+                <h2>Books</h2>
+                <div class="book-item">
+                    <h3>Book Title 1</h3>
+                    <p>Description of the book.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="book-item">
+                    <h3>Book Title 2</h3>
+                    <p>Description of the book.</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <!-- Add more books -->
+            </section>
+
+            <section id="about">
+                <h2>About Us</h2>
+                <p>Information about the bookstore.</p>
+            </section>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar">
+            <h2>News</h2>
+            <ul>
+                <li>New Arrivals</li>
+                <li>Upcoming Events</li>
+                <li>Special Offers</li>
+            </ul>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Bookstore. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

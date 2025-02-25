@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .cart {
+    display: flex;
+    align-items: center;
+}
+
+header .cart img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.banner {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-icons a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.banner-icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+main {
+    flex: 3;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 20px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.book-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
